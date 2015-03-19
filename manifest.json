@@ -1,0 +1,23 @@
+
+{
+    "name": "G-Mode for Netflix (c)",
+    "version": "1.1",
+    "description": "This is a chrome extensions wich adds the God Mode view for Netflix build by bit2pixel",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "page_action" :
+    {
+        "default_icon" : "icon.png",
+        "default_title" : "click to activate God Mode"
+    },
+    "permissions" : [
+        "declarativeContent","activeTab"
+    ],
+    "icons" : {
+        "48" : "icon.png",
+        "128" : "icon.png"
+    },
+    "manifest_version": 2
+}
